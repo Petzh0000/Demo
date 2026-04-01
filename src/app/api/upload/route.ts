@@ -76,6 +76,5 @@ export async function POST(request: NextRequest) {
 }
 
 // ขยาย limit สำหรับ upload
-export const config = {
-  api: { bodyParser: false },
-}
+// ✅ แบบใหม่ (App Router)
+export const dynamic = 'force-dynamic'
