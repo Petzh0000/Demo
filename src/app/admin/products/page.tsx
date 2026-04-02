@@ -172,6 +172,12 @@ export default function AdminProductsPage() {
             <span className="font-display text-herb-green-700 text-sm font-semibold">ผลิตภัณฑ์</span>
           </div>
           <div className="flex items-center gap-3">
+            <Link href="/admin/content" className="text-gray-500 hover:text-herb-green-700 font-display text-xs font-semibold">
+              📝 เนื้อหา
+            </Link>
+            <Link href="/admin/slides" className="text-gray-500 hover:text-herb-green-700 font-display text-xs font-semibold">
+              🖼️ สไลด์
+            </Link>
             <Link href="/admin/orders" className="text-gray-500 hover:text-herb-green-700 font-display text-xs font-semibold">
               📦 ออเดอร์
             </Link>
