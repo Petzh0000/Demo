@@ -191,10 +191,6 @@ export default function ShopPage() {
                   <div className="p-4">
                     <h3 className="font-display font-bold text-herb-dark text-sm leading-snug mb-1 line-clamp-2 min-h-[2.5rem]">{product.name}</h3>
                     <p className="text-gray-400 text-xs font-display mb-2 line-clamp-1">{product.description}</p>
-                    <div className="flex items-center gap-0.5 mb-3">
-                      {[...Array(5)].map((_, i) => <Star key={i} className="w-3 h-3 text-herb-gold-500 fill-herb-gold-500" />)}
-                      <span className="text-gray-400 text-xs font-display ml-1">(4.9)</span>
-                    </div>
                     <div className="flex items-center justify-between gap-2">
                       <span className="font-display font-black text-herb-green-700 text-lg whitespace-nowrap">
                         ฿{product.price.toLocaleString()}
